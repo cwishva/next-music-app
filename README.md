@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Review Note
+
+ - MUI Table virtualization depends on react-virtualized which is not updated to react 18 yet. So paging is done without virtualization. 
+   [Git Issue](https://github.com/bvaughn/react-virtualized/issues/1746)
+
 ## Available Scripts
 
 In the project directory, you can run:
