@@ -26,7 +26,7 @@ export default function PageLayout({ pageTitle, children, maxWidth }: IProps) {
       <Box
         sx={{
           position: 'relative',
-          top: '6rem',
+          top: '3rem',
           height: 'calc(100vh - 6rem)',
           display: 'flex',
           flexDirection: 'column'
